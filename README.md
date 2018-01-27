@@ -9,7 +9,7 @@
 + in(): check table values
 
 ###DataCollection&Preparation_Step2:
-+ in(): code importants packages again
++ in(): code imports packages again
 + in(): code implements output of Step1
 + in(): in order to avoid too many hits, divide data into 3 temporary data frames
 + in(): code implements description of each Supreme Court case, which you can request by clicking on the specific data set
@@ -22,9 +22,10 @@
 + in(): test the current model with LatentDirchletAllocation, Non-negative Matrix Factorization and Latent Semantic Analysis; apply those topic modeling methods and check if all of them reach the right result
 
 ###TopicModelingApplicationToData_Step5:
-+ 1: running model against the entire dataframe to collect the topics;
++ 1: running model against the entire dataframe to collect topics
 * by inserting and executing code, all case descriptions are stacked together to receive one document consisting of all decisions
-+ 2: take this model and apply it back to the dataframe to assign most likely topic to each case (we want the topic # and its dot product)
-+ 3: make a dictionary of the components that make up each topic from the original model
-+ 4: use this dictionary to "look up" the topic components and apply those to the dataframe
-+ 5: Getting data together for visualization!
++ 2: taking and applying model to the dataframe in order to assign most likely topic to each case
+* topic modeling methods then result in specific probability rates, which relate to different topics
++ 3: code creates dictionary for each topic, consisting of 30 words
++ 4: code then uses dictionary to look up topics and applies those to dataframe
++ 5: pivote data in order to visualize it (creating datapoint for every topic for every year)
