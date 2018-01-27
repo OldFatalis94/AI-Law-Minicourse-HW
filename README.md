@@ -23,9 +23,9 @@
 
 ###TopicModelingApplicationToData_Step5:
 + 1: running model against the entire dataframe to collect topics
-* by inserting and executing code, all case descriptions are stacked together to receive one document consisting of all decisions
+** by inserting and executing code, all case descriptions are stacked together to receive one document consisting of all decisions
 + 2: taking and applying model to the dataframe in order to assign most likely topic to each case
-* topic modeling methods then result in specific probability rates, which relate to different topics
+** topic modeling methods then result in specific probability rates, which relate to different topics
 + 3: code creates dictionary for each topic, consisting of 30 words
 + 4: code then uses dictionary to look up topics and applies those to dataframe
 + 5: pivote data in order to visualize it (creating datapoint for every topic for every year)
